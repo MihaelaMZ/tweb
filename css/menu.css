@@ -1,0 +1,33 @@
+/* Add a background color to the navigation bar */
+.menu {
+    background: linear-gradient(to right bottom, #63bde7 0%, #dbe9fc 58%, #a4dcf7 100%);
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.menu a {
+    float: left;
+    color: darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.menu a:hover {
+    background-color: linear-gradient(to right bottom, #63bde7 0%, #dbe9fc 58%, #a4dcf7 100%);
+    color: #fff;
+}
+
+/* Add a color to the active/current link */
+.menu a.active {
+    background-color: linear-gradient(to right bottom, #63bde7 0%, #dbe9fc 58%, #a4dcf7 100%);
+    color: #012169;
+    border-style: none none solid none;
+    border-color: #132dc2;
+    border-width: medium;
+    border-radius: 7px;
+
+}

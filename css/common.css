@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    text-align: center;
+    color: #120a80;
+}
+
+h2 {
+    text-align: center;
+    color: #120a80;
+}
+
+p {
+    color: #3d0c02;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    text-align: center;
+    font-size: 13px;
+    color: #3c1414;
+}
