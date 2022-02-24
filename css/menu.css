@@ -17,13 +17,11 @@
 
 /* Change the color of links on hover */
 .menu a:hover {
-    background-color: linear-gradient(to right bottom, #63bde7 0%, #dbe9fc 58%, #a4dcf7 100%);
     color: #fff;
 }
 
 /* Add a color to the active/current link */
 .menu a.active {
-    background-color: linear-gradient(to right bottom, #63bde7 0%, #dbe9fc 58%, #a4dcf7 100%);
     color: #012169;
     border-style: none none solid none;
     border-color: #132dc2;
