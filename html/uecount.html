@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <title>Countries</title>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+  <link rel="stylesheet" href="../css/menu.css" />
+  <link rel="stylesheet" href="../css/common.css" />
+  <link rel="stylesheet" href="../css/special.css" />
+</head>
+
+<body>
+  <div class="menu">
+    <a href="index.html">UE</a>
+    <a href="history.html">Istorie</a>
+    <a href="symbols.html">Simboluri</a>
+    <a href="countries.html">&#354&#0259ri</a>
+    <a href="priority.html">Priorit&#0259&#355i</a>
+  </div>
+
+  <h1>&#354&#0259rile Uniunei Europeane</h1>
+
+  <input list="tara" id="myInput" type="text" onkeyup="CautaTara()" placeholder="Caută țara...">
+  <datalist id="tara">
+    <option value="Austria"></option>
+    <option value="Belgia"></option>
+    <option value="Bulgaria"></option>
+    <option value="Cehia"></option>
+    <option value="Cipru"></option>
+    <option value="Croația"></option>
+    <option value="Danemarca"></option>
+    <option value="Estonia"></option>
+    <option value="Finlanda"></option>
+    <option value="Franța"></option>
+    <option value="Germania"></option>
+    <option value="Grecia"></option>
+    <option value="Irlanda"></option>
+    <option value="Italia"></option>
+    <option value="Letonia"></option>
+    <option value="Lituania"></option>
+    <option value="Luxemburg"></option>
+    <option value="Malta"></option>
+    <option value="Polonia"></option>
+    <option value="Portugalia"></option>
+    <option value="România"></option>
+    <option value="Slovacia"></option>
+    <option value="Slovenia"></option>
+    <option value="Spania"></option>
+    <option value="Suedia"></option>
+    <option value="Țările de Jos"></option>
+    <option value="Ungaria"></option>
+  </datalist>
+
+  <button onclick="Up()" id="scrollBut"><img src="../images/up.png"></button>
+
+  <div class="container">
+    <img src="../images/flags/at.png">
+    <div class="text">
+      <h3>Austria</h3>
+      <p><b>Capitala:</b> Viena</p>
+      <p> <b>Limba oficială:</b> germană</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1995</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 1999. </p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 1 decembrie 1997.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/be.png">
+    <div class="text">
+      <h3>Belgia</h3>
+      <p><b>Capitala:</b> Bruxelles</p>
+      <p> <b>Limba oficială:</b> neerlandeza, franceza și germana</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1958</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 1999. </p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 26 martie 1995.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/bg.png">
+    <div class="text">
+      <h3>Bulgaria</h3>
+      <p><b>Capitala:</b> Sofia</p>
+      <p> <b>Limba oficială:</b> bulgara</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 2007</p>
+      <p> <b>Moneda:</b> leva bulgărească (BGN) Bulgaria s-a angajat să adopte moneda euro de îndată ce îndeplinește
+        condițiile necesare. </p>
+      <p> <b>Spațiul Schengen:</b> Bulgaria se află în proces de aderare la spațiul Schengen.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/cz.png">
+    <div class="text">
+      <h3>Cehia</h3>
+      <p><b>Capitala:</b> Praga</p>
+      <p> <b>Limba oficială:</b> ceha</p>
+      <p> <b>Membru al UE de la:</b> 1 mai 2004</p>
+      <p> <b>Moneda:</b> coroana cehă (CZK). Cehia se pregătește să adopte moneda euro.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 21 decembrie 2007.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/cy.png">
+    <div class="text">
+      <h3>Cipru</h3>
+      <p><b>Capitala:</b> Nicosia</p>
+      <p> <b>Limba oficială:</b> greaca</p>
+      <p> <b>Membru al UE de la:</b> 1 mai 2004</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 2008. </p>
+      <p> <b>Spațiul Schengen:</b> Ciprul se află în proces de aderare la spațiul Schengen.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/hr.png">
+    <div class="text">
+      <h3>Croația</h3>
+      <p><b>Capitala:</b> Zagreb</p>
+      <p> <b>Limba oficială:</b> croata</p>
+      <p> <b>Membru al UE de la:</b> 1 iulie 2013</p>
+      <p> <b>Moneda:</b> kuna croată (HRK) Croația s-a angajat să adopte moneda euro de îndată ce îndeplinește
+        condițiile necesare. </p>
+      <p> <b>Spațiul Schengen:</b> Croația nu este stat membru al spațiului Schengen.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/dk.png">
+    <div class="text">
+      <h3>Danemarca</h3>
+      <p><b>Capitala:</b> Copenhaga</p>
+      <p> <b>Limba oficială:</b> daneza</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1973</p>
+      <p> <b>Moneda:</b> coroana daneză (DKK). Danemarca a negociat o clauză de neparticipare la zona euro. Prin urmare,
+        nu este obligată să introducă această monedă. </p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 25 martie 2001.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/ee.png">
+    <div class="text">
+      <h3>Estonia</h3>
+      <p><b>Capitala:</b> Tallinn</p>
+      <p> <b>Limba oficială:</b> estona</p>
+      <p> <b>Membru al UE de la:</b> 1 mai 2004</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 2011. </p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 21 decembrie 2007.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/fi.png">
+    <div class="text">
+      <h3>Finlanda</h3>
+      <p><b>Capitala:</b> Helsinki</p>
+      <p> <b>Limba oficială:</b> finlandeza, suedeza</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1995</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 1999.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 25 martie 2001.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/fr.png">
+    <div class="text">
+      <h3>Franța</h3>
+      <p><b>Capitala:</b> Paris</p>
+      <p> <b>Limba oficială:</b> franceza</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1958</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 1999.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 26 martie 1995.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/de.png">
+    <div class="text">
+      <h3>Germania</h3>
+      <p><b>Capitala:</b> Berlin</p>
+      <p> <b>Limba oficială:</b> germana</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1958</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 1999.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 26 martie 1995.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/gr.png">
+    <div class="text">
+      <h3>Grecia</h3>
+      <p><b>Capitala:</b> Atena</p>
+      <p> <b>Limba oficială:</b> greacă</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1981</p>
+      <p> <b>Moneda:</b> euro Stat membru al zonei euro de la 1 ianuarie 2001. </p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 1 ianuarie 2000.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/ie.png">
+    <div class="text">
+      <h3>Irlanda</h3>
+      <p><b>Capitala:</b> Viena</p>
+      <p> <b>Limba oficială:</b> germană</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1995</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 1999. </p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 1 decembrie 1997.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/it.png">
+    <div class="text">
+      <h3>Italia</h3>
+      <p><b>Capitala:</b> Roma</p>
+      <p> <b>Limba oficială:</b> italiană</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1958</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 1999.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 26 octombrie 1997.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/lv.png">
+    <div class="text">
+      <h3>Letonia</h3>
+      <p><b>Capitala:</b> Riga</p>
+      <p> <b>Limba oficială:</b> letona</p>
+      <p> <b>Membru al UE de la:</b> 1 mai 2004</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 2014.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 21 decembrie 2007.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/lt.png">
+    <div class="text">
+      <h3>Lituania</h3>
+      <p><b>Capitala:</b> Vilnius</p>
+      <p> <b>Limba oficială:</b> lituaniana</p>
+      <p> <b>Membru al UE de la:</b> 1 mai 2004</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 2015.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 21 decembrie 2007.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/lu.png">
+    <div class="text">
+      <h3>Luxemburg</h3>
+      <p><b>Capitala:</b> Luxemburg</p>
+      <p> <b>Limba oficială:</b> franceză, germană</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1958</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 1999.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 26 martie 1995.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/mt.png">
+    <div class="text">
+      <h3>Malta</h3>
+      <p><b>Capitala:</b> Valletta</p>
+      <p> <b>Limba oficială:</b> malteza și engleza</p>
+      <p> <b>Membru al UE de la:</b> 1 mai 2004</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 2008.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 21 decembrie 2007.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/pl.png">
+    <div class="text">
+      <h3>Polonia</h3>
+      <p><b>Capitala:</b> Varșovia</p>
+      <p> <b>Limba oficială:</b> polonezaă</p>
+      <p> <b>Membru al UE de la:</b> 1 mai 2004</p>
+      <p> <b>Moneda:</b> zlotul polonez (PLN). Polonia se pregătește să adopte moneda euro. </p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 21 decembrie 2007.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/pt.png">
+    <div class="text">
+      <h3>Portugalia</h3>
+      <p><b>Capitala:</b> Lisabona</p>
+      <p> <b>Limba oficială:</b> portugheza</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1986</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 1999.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 26 martie 1995.</p>
+    </div>
+  </div>
+
+  </div>
+  <div class="container">
+    <img src="../images/flags/ro.png">
+    <div class="text">
+      <h3>România</h3>
+      <p><b>Capitala:</b> București</p>
+      <p> <b>Limba oficială:</b> româna</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 2007</p>
+      <p> <b>Moneda:</b> leul românesc (RON). România s-a angajat să adopte moneda euro de îndată ce îndeplinește
+        condițiile necesare.</p>
+      <p> <b>Spațiul Schengen:</b> România se află în proces de aderare la spațiul Schengen.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/sk.png">
+    <div class="text">
+      <h3>Slovacia</h3>
+      <p><b>Capitala:</b> Bratislava</p>
+      <p> <b>Limba oficială:</b> slovacă</p>
+      <p> <b>Membru al UE de la:</b> 1 mai 2004</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 2009.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 21 decembrie 2007.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/si.png">
+    <div class="text">
+      <h3>Slovenia</h3>
+      <p><b>Capitala:</b> Ljubljana</p>
+      <p> <b>Limba oficială:</b> slovena</p>
+      <p> <b>Membru al UE de la:</b> 1 mai 2004</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 2007</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 21 decembrie 2007</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/es.png">
+    <div class="text">
+      <h3>Spania</h3>
+      <p><b>Capitala:</b> Madrid</p>
+      <p> <b>Limba oficială:</b> spaniolă</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1986</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 1999.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la duminică, 26 martie 1995.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/se.png">
+    <div class="text">
+      <h3>Suedia</h3>
+      <p><b>Capitala:</b> Stockholm</p>
+      <p> <b>Limba oficială:</b> suedeză</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1995</p>
+      <p> <b>Moneda:</b> Coroana suedeză (SEK). Suedia s-a angajat să adopte moneda euro de îndată ce îndeplinește
+        condițiile necesare.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 25 martie 2001.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/nl.png">
+    <div class="text">
+      <h3>Țările de Jos</h3>
+      <p><b>Capitala:</b> Amsterdam</p>
+      <p> <b>Limba oficială:</b> neerlandeză</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1958</p>
+      <p> <b>Moneda:</b> euro. Stat membru al zonei euro de la 1 ianuarie 1999.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 26 martie 1995.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <img src="../images/flags/hu.png">
+    <div class="text">
+      <h3>Ungaria</h3>
+      <p><b>Capitala:</b> Budapesta</p>
+      <p> <b>Limba oficială:</b> maghiara</p>
+      <p> <b>Membru al UE de la:</b> 1 ianuarie 1995</p>
+      <p> <b>Moneda:</b> forintul maghiar (HUF). Ungaria se pregătește să adopte moneda euro.</p>
+      <p> <b>Spațiul Schengen:</b> Stat membru al spațiului Schengen de la 21 decembrie 2007.</p>
+    </div>
+  </div>
+
+  <script src="../javascript/main.js"></script>
+</body>
+
+</html>

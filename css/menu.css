@@ -1,18 +1,18 @@
 /* Add a background color to the navigation bar */
 .menu {
     background: linear-gradient(to right bottom, #63bde7 0%, #dbe9fc 58%, #a4dcf7 100%);
-    overflow: hidden;
+    padding: 16px 16px;
     margin-bottom: 50px;
 }
 
 /* Style the links inside the navigation bar */
 .menu a {
-    float: left;
+    /* float: left; */
     color: darkblue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 /* Change the color of links on hover */
@@ -27,5 +27,4 @@
     border-color: #132dc2;
     border-width: medium;
     border-radius: 7px;
-
 }

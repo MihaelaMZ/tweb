@@ -1,0 +1,152 @@
+/* pagina principala */
+#ImgPag1 {
+    text-align: center;
+}
+
+.ImTab img {
+
+    width: 190px;
+    height: 190px;
+}
+
+#InfGen {
+    display: none;
+}
+
+.buttonInf {
+    display: flex;
+    padding: 15px 32px;
+    border-style: outset;
+    border-color: aliceblue;
+    border-radius: 8px;
+    margin: auto;
+    background: transparent;
+    margin-top: 75px;
+    text-align: center;
+    font-size: 16px;
+    color: #a5adb1;
+}
+
+.buttonInf:hover {
+    font-size: 18px;
+    color: #120a80;
+}
+
+/* pagina tari */
+.but {
+    background: transparent;
+    border: none;
+    color: darkblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.dropC {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to right bottom, #a4dcf7 0%, #dbe9fc 58%, #a4dcf7 100%);
+}
+
+.drop:hover .dropC {
+    display: block;
+}
+
+.drop:hover .but {
+    color: black;
+}
+
+.container {
+    display: flex;
+    margin: 3% 25% 3%;
+}
+
+.drop {
+    position: relative;
+    display: inline-block;
+}
+
+.buttonmenu {
+    padding: 10px 20px;
+    border: solid;
+    /* Prevent double borders */
+    margin-top: -1px;
+    border-color: #dbe9fc;
+    background: transparent;
+    font-size: 16px;
+    color: #120a80;
+}
+
+.buttonmenu:hover {
+    font-size: 18px;
+    color: black;
+}
+
+.imgn {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgn img {
+    width: 80px;
+    height: 65px;
+}
+
+#Im {
+    margin-top: -30px;
+}
+
+#actual {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+/* pagina detalii tari */
+.text h3 {
+    color: firebrick;
+    font-size: 22px;
+    text-align: justify;
+    margin: 10px 5px 15px 20px;
+}
+
+.text p {
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    margin: 5px 5px 15px 20px;
+}
+
+#myInput {
+    background-image: url('../images/search.png');
+    background-position: 10px 5px;
+    background-repeat: no-repeat;
+    background-color: rgb(245, 250, 255);
+    font-size: 16px;
+    padding: 10px 0px 14px 50px;
+    border: 2px solid rgb(111, 81, 219);
+    border-radius: 7px;
+    margin-left: 77%;
+    margin-top: -30px;
+    margin-bottom: 5px;
+}
+
+#scrollBut {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    border: none;
+    background: none;
+}
+
+#scrollBut img {
+    height: 70px;
+    width: 70px;
+}
+
+#scrollBut:hover img {
+    height: 80px;
+    width: 80px;
+}
