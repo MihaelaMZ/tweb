@@ -39,18 +39,20 @@ function Up() {
 }
 
 function CautaTara() {
-  var s = document.getElementsByClassName("container");
-  var input = document.getElementById("myInput").value;
-  var name = document.getElementsByTagName("h3");
-  for (i = 0; i < s.length; i++) {
-    s[i].style.display = "none";
+  var containerEl = document.getElementsByClassName("container");
+  var search = document.getElementById("myInput").value;
+  var countrysName = document.getElementsByTagName("h3");
+  for (i = 0; i < containerEl.length; i++) {
+    containerEl[i].style.display = "none";
   }
-  for (i = 0; i < name.length; i++) {
-    var nam = document.getElementsByTagName("h3")[i].innerText;
-    if (nam == input) s[i].style.display = "flex";
-    if (input == "")
-      for (i = 0; i < s.length; i++) {
-        s[i].style.display = "flex";
+ search = search.replaceAll(" ", "");
+ search[0] = search[0].toUpperCase();
+  for (i = 0; i < countrysName.length; i++) {
+    var countName = document.getElementsByTagName("h3")[i].innerText;
+    if (countName.indexOf(search) != -1 ) containerEl[i].style.display = "flex";
+    if (search == "")
+      for (i = 0; i < containerEl.length; i++) {
+        containerEl[i].style.display = "flex";
       }
   }
 }
