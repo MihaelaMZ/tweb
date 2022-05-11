@@ -1,0 +1,88 @@
+body {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  color: #120a80;
+}
+
+h3 {
+  text-align: center;
+  color: red;
+  margin: -20px 30% 40px 30%;
+}
+
+form {
+  margin: 40px 30%;
+  border: 3px solid #f1f1f1;
+  background-color: #DBF3FA;
+}
+
+p {
+  margin: 20px;
+}
+
+p.note {
+  color: red;
+}
+
+input[type=text], input[type=password], input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #187DE9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+}
+
+button:hover {
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+.container {
+  padding: 16px;
+}
+
+ textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+label.error {
+  color: red;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
+}
+
+input.error, textarea.error {
+  border: 1px dashed red;
+  font-weight: 300;
+  color: red;
+}
+
+.error {
+  color: #FF0001;
+}  

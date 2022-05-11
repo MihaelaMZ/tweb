@@ -4,7 +4,7 @@
 <head>
     <title>UE</title>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text"php; charset=utf-8">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/common.css">
@@ -13,26 +13,27 @@
 
 <body>
     <div class="menu">
-        <a class="active" href="html/index.html">UE</a>
-        <a href="html/history.html">Istorie</a>
-        <a href="html/symbols.html">Simboluri</a>
-        <a href="html/countries.html">&#354&#0259ri</a>
-        <a href="html/priority.html">Priorit&#0259&#355i</a>
+        <a class="active" href="index.php">UE</a>
+        <a href="php/history.php">Istorie</a>
+        <a href="php/symbols.php">Simboluri</a>
+        <a href="php/countries.php">&#354&#0259ri</a>
+        <a href="php/priority.php">Priorit&#0259&#355i</a>
+        <a href="php/contact.php">Contact</a>
     </div>
 
     <h1>Uniunea European&#0259</h1>
 
     <div id="ImgPag1">
-        <a href="html/history.html">
+        <a href="php/history.php">
             <img src="images/history.png" width="200" height="200" title="Istorie">
         </a>
-        <a href="html/symbols.html">
+        <a href="php/symbols.php">
             <img src="images/symbols.png" width="200" height="200" title="Simboluri">
         </a>
-        <a href="html/countries.html">
+        <a href="php/countries.php">
             <img id="i3" src="images/countries.png" width="200" height="200" title="&#354&#0259ri">
         </a>
-        <a href="html/priority.html">
+        <a href="php/priority.php">
             <img id="i4" src="images/priority.png" width="200" height="200" title="Priorit&#0259&#355i">
         </a>
     </div>
@@ -57,4 +58,4 @@
     <script src="javascript/main.js"></script>
 </body>
 
-</html>
+<html>

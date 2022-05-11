@@ -12,9 +12,9 @@
 
 <body>
   <div class="menu">
-    <a href="../index.html">UE</a>
-    <a href="history.html">Istorie</a>
-    <a href="symbols.html">Simboluri</a>
+    <a href="../index.php">UE</a>
+    <a href="history.php">Istorie</a>
+    <a href="symbols.php">Simboluri</a>
     <div class="drop">
       <button class="but">&#354&#0259ri ▾</button>
       <div class="dropC">
@@ -31,7 +31,8 @@
         <button class="buttonmenu" onclick="Page()"><small>Detalii</small></button>
       </div>
     </div>
-    <a href="priority.html">Priorit&#0259&#355i</a>
+    <a href="priority.php">Priorit&#0259&#355i</a>
+    <a href="contact.php">Contact</a>
   </div>
 
   <h1>&#354&#0259rile Uniunei Europeane</h1>

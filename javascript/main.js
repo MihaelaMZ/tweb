@@ -16,7 +16,7 @@ function loadImage(nr) {
 }
 
 function Page() {
-  window.location.href = "../html/uecount.html";
+  window.location.href = "../php/uecount.php";
 }
 
 //pagina cu tari
@@ -45,11 +45,11 @@ function CautaTara() {
   for (i = 0; i < containerEl.length; i++) {
     containerEl[i].style.display = "none";
   }
- search = search.replaceAll(" ", "");
- search[0] = search[0].toUpperCase();
+  search = search.replaceAll(" ", "");
+  search[0] = search[0].toUpperCase();
   for (i = 0; i < countrysName.length; i++) {
     var countName = document.getElementsByTagName("h3")[i].innerText;
-    if (countName.indexOf(search) != -1 ) containerEl[i].style.display = "flex";
+    if (countName.indexOf(search) != -1) containerEl[i].style.display = "flex";
     if (search == "")
       for (i = 0; i < containerEl.length; i++) {
         containerEl[i].style.display = "flex";
