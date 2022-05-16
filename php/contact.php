@@ -20,6 +20,7 @@
         <a href="countries.php">&#354&#0259ri</a>
         <a href="priority.php">Priorit&#0259&#355i</a>
         <a class="active" href="contact.php">Contact</a>
+        <a href="contact2.php">Contact2</a>
     </div>
 
     <?php

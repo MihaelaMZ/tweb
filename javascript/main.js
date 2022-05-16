@@ -46,11 +46,11 @@ function CautaTara() {
     containerEl[i].style.display = "none";
   }
   search = search.replaceAll(" ", "");
-  search[0] = search[0].toUpperCase();
+ // search[0] = search[0].toUpperCase();
   for (i = 0; i < countrysName.length; i++) {
     var countName = document.getElementsByTagName("h3")[i].innerText;
     if (countName.indexOf(search) != -1) containerEl[i].style.display = "flex";
-    if (search == "")
+    if (search == "") 
       for (i = 0; i < containerEl.length; i++) {
         containerEl[i].style.display = "flex";
       }

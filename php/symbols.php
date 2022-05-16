@@ -11,7 +11,7 @@
 <body>
     <div class="menu">
         <a href="../index.php">UE</a>
-        <a href="history.html">Istorie</a>
+        <a href="history.php">Istorie</a>
         <a class="active" href="symbols.php">Simboluri</a>
         <a href="countries.php">&#354&#0259ri</a>
         <a href="priority.php">Priorit&#0259&#355i</a>
